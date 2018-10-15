@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Busca tu cancion</title>
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="icon.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css
+">
+</head>
+<body>
+
+
+<nav>
+<ul class="nav justify-content-center ">
+  <li class="nav-item">
+    <a class="nav-link active" href="#!"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#!"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#!"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+  </li>
+</ul>
+
+</nav>
+<div class="header d-flex align-items-center mb-4">
+
+
+
+
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-12 ">
+
+				<h1 class=" align-self-center text-right  text-dark lead">Busca tu cancion preferida..</h1>
+
+			</div>
+			
+		</div>
+		
+	</div>
+
+
+
+
+
+</div>
+
+    <main id="contenido" class="contenido container-fluid">
+    	<div class="row">
+    		<div class="col-12">
+    			
+    		
+            
+            <div class="contenedor">
+                    <div id="buscar" class="buscar col-6">
+                           
+                            <p class="text-center">Busca por artista y nombre:</p>
+                            <p class="text-center"><span> * </span>Obligatorio</p>
+                            <form action="#" id="formulario-buscar">
+                                <div class="input">
+                                    <label for="artista">Artista: <span class="asterico">*</span></label>
+                                    <input type="text" id="artista" placeholder="Artista">
+                                </div>
+                                <div class="input">
+                                    <label for="cancion">Canción: <span>*</span></label>
+                                    <input type="text" id="cancion" placeholder="Nombre Canción">
+                                </div>
+
+                                <div class="input enviar">
+                                    <input type="submit" value="Buscar">
+                                </div>
+
+                                <div id="mensajes"></div>
+                            </form>
+                    </div>
+                    <div class="letra-resultado col-6">
+                            <h2 class="text-center">Resultado</h2>
+                            <div id="resultado" class="text-center">
+                            
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+
+    <div class="apoyo" >
+    	<div class="container-fluid">
+    		<div class="row ">
+    			<div class="col-12">
+
+    				<hr>
+
+    				<h2 class="text-center lead mb-4">Nos apoyan :</h2>
+
+    				<div class="contenido d-flex  justify-content-between">
+
+    				<div class="img1 mt-4"></div>
+    				<div class="img2 mt-4"></div>
+    				<div class="img3 mt-4"></div>
+</div>
+    				
+    			  </div> 			
+    		</div>
+    		
+    	</div>
+    	
+    </div>
+   <footer class="footer-distributed">
+
+			<div class="footer-left">
+
+		
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">Blog</a>
+					
+				</p>
+
+				
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>CODEART</span> BUENOS AIRES , ARGENTINA</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 555 123456</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	
+	$('.carousel').carousel({
+ interval: 4000
+})
+
+</script>
+<script src="js/app.js" type="module"></script>
+</body>
+</html>
